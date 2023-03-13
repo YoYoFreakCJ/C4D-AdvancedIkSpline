@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="generated">
+      <UniqueIdentifier>{8DEC07BE-48C8-1A19-0000-5284111A998F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generated\hxx">
+      <UniqueIdentifier>{8DEC07BE-48C8-1A19-8ACC-618A6830A19B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{8DEC07BE-48C8-1A19-0000-00000001B8A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\description">
+      <UniqueIdentifier>{8DEC07BE-48C8-1A19-9C54-D849A21EBAC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{8DEC07BE-48C8-1A19-0000-0000CA90681B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\strings_en-US">
+      <UniqueIdentifier>{a75e5935-51e5-4576-a7e4-2692e32fb7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\strings_en-US\description">
+      <UniqueIdentifier>{8d39ea2c-9577-4a94-839c-7fa642e8b0bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\generated\hxx\interface_registration.cpp">
+      <Filter>generated\hxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generated\hxx\register.cpp">
+      <Filter>generated\hxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\AdvancedIkSpline.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\LayerUtilities.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\res\c4d_symbols.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\AdvancedIkSpline.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\main.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\res\description\oadvancedikspline.h">
+      <Filter>res\description</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\LayerUtilities.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\res\strings_en-US\c4d_strings.str">
+      <Filter>res\strings_en-US</Filter>
+    </None>
+    <None Include="..\res\strings_en-US\description\oadvancedikspline.str">
+      <Filter>res\strings_en-US\description</Filter>
+    </None>
+  </ItemGroup>
+</Project>
